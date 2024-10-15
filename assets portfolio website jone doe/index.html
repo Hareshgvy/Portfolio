@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet"  href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">Ha<span>re</span>sh</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+          <li><a href="#about" class="nav__link ">About</a></li>
+
+          <li><a href="#services" class="nav__link ">Services</a></li>
+
+          <li><a href="#portfolio" class="nav__link ">Portfolio</a></li>
+
+          <li><a href="#contact" class="nav__link ">Contact</a></li>
+
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="uil uil-times"></i>
+        </div>
+      </div>
+
+      <div class="nav__socials">
+        <a href="https://www.linkedin.com/in/hareshg/" target="_blank"
+        class="nav__social-link"
+        >
+        <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank"
+        class="nav__social-link"
+        >
+        <i class="uil uil-instagram"></i>
+        </a>
+
+        <a href="https://github.com/Hareshgvy" target="_blank" 
+        class="nav__social-link">
+          <i class="uil uil-github"></i>
+        </a>
+
+        
+      </div>
+
+      <div class="nav__btns">
+        <a href="#contact"  class="nav__link-btn btn">Let's Talk</a>
+
+        <div class="nav__toggle" id="nav-toggle">
+        <i class ="uil uil-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome To My World</span>
+            <h1 class="home__title">
+              Hi, I'm Haresh G <span> Data Analyst</span>
+            </h1>
+          </div>
+
+          <img src="assets/img/circleprofile.png" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/profilepotobla.jpg" alt="" class="about__img"/>
+
+         <div class="about__content">
+           <h2 class="section__title">About Me</h2>
+
+           <p class="about__description">
+            
+            Dynamic and results-driven Data Analyst with extensive experience in leveraging advanced analytical techniques to transform data into strategic insights. Proficient in data visualization, statistical analysis, and predictive modeling to drive business decisions. Adept at utilizing tools such as SQL, Python, and Power BI to uncover trends, optimize processes, and enhance data integrity. Demonstrates a strong ability to communicate complex data findings to stakeholders, ensuring data-driven decisions are aligned with organizational goals. Committed to continuous learning and improvement, bringing a passion for data and a knack for problem-solving to every project.
+           </p>
+
+           <div class="tabs__btns">
+            <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+            <span class="tabs__btn" data-target="#awards">Awards</span>
+            <span class="tabs__btn" data-target="#experience">Experience</span>
+            <span class="tabs__btn" data-target="#education">Education & Certificates</span>
+           </div>
+
+
+           <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Hands On Experience</span>
+                  Power BI | Python Panda | Hive(Hue) Database | Azure Devops
+                </p>
+                <p class="tabs__description">
+                  <span>Miscellaneous Skill</span>
+                  Excel(Intermediate) | MySQL Database 
+                </p>
+              </div>
+            </div>
+
+
+            <div class="tabs__item" data-content id="awards">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Individual Awards</span>
+                  <span>Star of the Month, On the Spot Awards, Star of the Quarters</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Team Awards</span> 
+                  <span>Best Team of the Year , Star Team</span>
+                </p>
+              </div>
+            </div>
+            
+
+            <div class="tabs__item" data-content id="experience">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>TATA Consultancy Service</span>
+                  <span>CITI BANK | Data analyst| Feb 2022-Dec 2023 | Chennai India</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>TATA Consultancy Service</span>
+                  <span>Zions Bancorporation | Data analyst| Jan 2023-Present | Onsite Urugvey</span>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="tabs__item" data-content id="education">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Education</span>
+                  <span>Bachlore in Engineering | Passed out 2021 |Chennai-India</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Certifications</span>
+                  <span>Certified SAFe 6 Practitioner</span>
+                </p>
+              </div>
+            </div>
+           </div>
+         </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Awesome Service</h2>
+        <p class="section__description">
+          They are many Various of Service Avilable.But majority i mentioned Here.
+        </p>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil uil-rss-interface services__icon"></i>
+
+            <h3 class="services__title">Business Strategy</h3>
+            <p class="services__description">
+              Crafted Power BI reports that drove a 20% sales boost, aligning with client business strategies.
+            </p>
+          </div>
+
+
+          <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+
+            <h3 class="services__title"> Website Development</h3>
+            <p class="services__description">
+              Developed a robust web service app using React.js, enhancing user experience and functionality through seamless integration and responsive design.
+            </p>
+          </div>
+
+
+          <div class="services__item">
+            <i class="uil uil-users-alt services__icon"></i>
+
+            <h3 class="services__title">Marketing And Reporting</h3>
+            <p class="services__description">
+              Utilized Python's Pandas library for in-depth marketing data analysis, driving strategic insights and informed decision-making
+            </p>
+          </div>
+
+
+          <div class="services__item">
+            <i class="uil uil-desktop services__icon"></i>
+
+            <h3 class="services__title">Automation of Data Workflows</h3>
+            <p class="services__description">
+              Automated complex workflows using Power BI services, driving efficiency and data-driven business strategies.
+            </p>
+          </div>
+
+
+          <div class="services__item">
+            <i class="uil uil-users-alt services__icon"></i>
+
+            <h3 class="services__title">Innovative Data Analyst</h3>
+            <p class="services__description">
+              Provided comprehensive data analysis services using Python, utilizing libraries such as Pandas for effective data manipulation, visualization, and predictive analytics.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-desktop services__icon"></i>
+
+            <h3 class="services__title">Comprehensive Reporting</h3>
+            <p class="services__description">
+              Created detailed, dynamic reports using Power BI, transforming complex data into meaningful visual narratives that support informed decision-making.
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Project</h2>
+        <p class="section__description">
+          They are may project I have completed few of them mentioned Here
+        </p>
+
+        <div class="portfolio__container container grid">
+          <div  class="portfolio__item">
+            <img
+             src="assets/img/portfolio-1.jpg" 
+             alt=""
+             class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Web Wizardry</p>
+              <h3 class="portfolio__title"><a href="https://github.com/Hareshgvy/Project_Html_Protifolio" target="_blank">Development</a></h3>
+              <p class="portfolio__description">
+                Crafted unique portfolio websites using HTML, CSS, and JavaScript, showcasing a variety of projects with a modern and user-friendly design
+              </p>
+            </div>
+          </div>
+
+          <div  class="portfolio__item">
+            <img
+             src="assets/img/portfolio-2.jpg" 
+             alt=""
+             class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Autowork</p>
+              <h3 class="portfolio__title"><a href="https://app.powerbi.com/links/a3JzxQkJoa?ctid=45d83f91-6862-4c90-99b2-497234a5aa1b&pbi_source=linkShare" target="_blank">DashBoard</a></h3>
+              <p class="portfolio__description">
+                Delivers real-time insights into sales performance with dynamic visuals and drill-down capabilities.
+              </p>
+            </div>
+          </div>
+
+          <div  class="portfolio__item">
+            <img
+             src="assets/img/portfolio-3.jpg" 
+             alt=""
+             class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Maveen Market</p>
+              <h3 class="portfolio__title"><a href="https://app.powerbi.com/links/du4ffmB9hg?ctid=45d83f91-6862-4c90-99b2-497234a5aa1b&pbi_source=linkShare" target="_blank">DashBoard</a></h3>
+              <p class="portfolio__description">
+                Unveils critical sales insights with sophisticated visuals and dynamic filtering for trend analysis.
+              </p>
+            </div>
+          </div>
+
+          <div  class="portfolio__item">
+            <img
+             src="assets/img/portfolio-4.jpg" 
+             alt=""
+             class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Web Application</p>
+              <h3 class="portfolio__title"><a href="https://github.com/Hareshgvy/Job_web_application" target="_blank">Development</a></h3>
+              <p class="portfolio__description">
+                Developed a dynamic job portal using React.js, featuring responsive design, real-time data updates, and user-friendly navigation for enhanced job search experience.
+              </p>
+            </div>
+          </div>
+
+          <div  class="portfolio__item">
+            <img
+             src="assets/img/portfolio-5.jpg" 
+             alt=""
+             class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Innovative Portfolio</p>
+              <h3 class="portfolio__title"><a href="https://github.com/Hareshgvy/Portfolio" target="_blank">Creativity</a></h3>
+              <p class="portfolio__description">
+                Engineered a state-of-the-art portfolio using cutting-edge web technologies, enhancing personal branding through a sleek and dynamic interface.
+              </p>
+            </div>
+          </div>
+
+          <div  class="portfolio__item">
+            <img
+             src="assets/img/portfolio-6.jpg" 
+             alt=""
+             class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Data Analysis</p>
+              <h3 class="portfolio__title"><a href="https://www.linkedin.com/in/hareshg/details/certifications/" target="_blank">Analysis</a></h3>
+              <p class="portfolio__description">
+                Executed comprehensive data analysis in Python, leveraging libraries like Pandas and NumPy to uncover insights and drive data-driven decisions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title"><span>HIRE ME</span> </h2>
+
+            <p class="contact__description">
+              I am Avilable for freelance work. Connect with me via <br>Phone Number:
+              <a href="Tel:+91 9176689939">+91 9176689939</a></br>  E-Mail: 
+              <a href="Mailto:hareshgvy07@gmail.com">hareshgvy07@gmail.com</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text"
+                name="name" 
+                placeholder="Your Name *" 
+                class="contact__input"
+                id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input type="email"
+                name="email" 
+                placeholder="Your email" 
+                class="contact__input"
+                id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input type="text"
+                name="subject" 
+                placeholder="Write a Subject" 
+                class="contact__input"
+                id="contact-subject"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message"
+                 class="contact__input textarea" placeholder="Your Message"></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn"  />
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/circleprofile.png" alt="" class="contact__img" />
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">Ha<span>re</span>sh</a>
+
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/hareshg/" target="_blank"
+          class="footer__social-link"
+          >
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank"
+        class="footer__social-link"
+        >
+        <i class="uil uil-instagram"></i>
+        </a>
+
+        <a href="https://github.com/Hareshgvy" target="_blank" 
+        class="footer__social-link">
+          <i class="uil uil-github"></i>
+        </a>
+        </div>
+
+        <p class="footer__copyright"> &copy; 2024. All rights reserved to Haresh G.</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+
+    <a href="#"  class="scrollup"  id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
