@@ -128,11 +128,11 @@ input{
 }
 
 .section{
-  padding-block: 8rem;
+  padding-block: 5rem;
 }
 
 .section__title{
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   margin-bottom: 1rem;
 }
 
@@ -274,12 +274,16 @@ input{
 
 /*=============== HOME ===============*/
 .home{
-  padding-block: 16rem 9rem;
+  padding-block: 10rem 7rem;
 }
 
 .home__container{
   grid-template-columns: 7fr 5fr;
   align-items: center;
+}
+
+.home__content {
+  text-align: center;
 }
 
 .home__subtitle{
@@ -300,6 +304,25 @@ input{
   color: var(--first-color);
 }
 
+.home__info {
+  display: flex;
+  column-gap: 2.5rem;
+  margin-top: 2.5rem;
+  justify-content: center;
+}
+
+.home__info-title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--weight-600);
+  margin-bottom: 0.5rem;
+}
+
+.home__info-subtitle {
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-400);
+  line-height: 1.2;
+}
+
 .home__img{
   width: 420px;
   height: 420px;
@@ -307,6 +330,17 @@ input{
   border: 0.75rem solid var(--container-color);
   margin-left: auto;
 }
+
+.home__mail-btn {
+  margin-top: 2.5rem;
+}
+
+.home__mail-btn:hover {
+  background-color: var(--first-color);
+  border-color: var(--first-color);
+  color: var(--body-color);
+}
+
 /*=============== ABOUT ===============*/
 .about{
   background-color: var(--container-color);
@@ -387,7 +421,7 @@ input{
 
 .services__item{
   background-color: var(--container-color);
-  padding: 3.5rem 2.5rem;
+  padding: 2.5rem 1.5rem;
   border-radius: var(--radius);
 }
 
@@ -500,12 +534,17 @@ input{
   column-gap: 4rem;
 }
 
+.contact__content {
+  text-align: center;
+}
+
 .contact__description,
 .contact__input{
   font-weight: var(--weight-400);
 }
 
 .contact__description{
+  font-size: var(--small-font-size);
   margin-bottom: 3rem;
 }
 
@@ -526,11 +565,18 @@ input{
   border-radius: var(--radius);
   font-size: var(--smaller-font-size);
   margin-bottom: 1.25rem;
+  text-align: left;
 }
 
 .textarea{
   height: 120px;
   resize: none;
+}
+
+.contact__form .btn:hover {
+  background-color: var(--first-color);
+  color: var(--title-color);
+  border-color: var(--first-color);
 }
 
 .error__message{
